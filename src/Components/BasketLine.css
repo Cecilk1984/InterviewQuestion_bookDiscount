@@ -1,0 +1,44 @@
+.basket-line{
+    width:600px;
+    height:25px;
+    border-radius:10px 0px 0px 10px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto; 
+    text-align:left;       
+}
+.basket-line-column{
+    display:inline-block;
+    line-height:25px;
+    height:25px;
+    text-align:left;
+    margin-left:15px;
+    color:white;
+    vertical-align: middle;
+}
+.basket-column-element{
+    display:inline-block;
+    line-height:23px;
+    height:23px;   
+    min-width:13px; 
+    text-align: center;
+    vertical-align: middle;
+    margin-right:0px;
+    margin-top:-5px;
+}
+.basket-line-column-title{
+    max-width:340px;
+    min-width:340px;    
+}
+.basket-line-column-count{
+    max-width:80px;
+    min-width:80px;    
+}
+.basket-line-column-price{
+    max-width:80px;
+    min-width:80px;
+}
+.basket-line-column-delete{
+    max-width:30px;
+    min-width:30px;
+}

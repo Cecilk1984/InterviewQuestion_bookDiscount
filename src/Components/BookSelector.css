@@ -1,0 +1,21 @@
+.book-selector-container {
+    display:block;
+    width:100%;
+    height:275px;
+    background-color:rgb(100,100,200);
+    color:white;
+    text-align: left;
+  }
+  .book-selector-title{
+      font-size:2em;      
+      display:inline-block;       
+      line-height: 40px;
+      background-color:rgb(125,125,225);      
+      width:100%;
+  }
+  .books-container{
+      width:100%;
+      height:260px;
+      text-align:center;
+      overflow:hidden;
+  }

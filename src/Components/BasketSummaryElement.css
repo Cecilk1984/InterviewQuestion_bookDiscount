@@ -1,0 +1,32 @@
+.element-container{
+    display:inline-block;
+    margin:15px;
+}
+.left-side-bar{
+    background-color:rgb(155,155,255);
+    width:18px;
+    height:72px;
+    line-height:72px;
+    display:inline-block;
+    border-radius:8px 0px 0px 8px;
+    vertical-align:top;
+}
+.right-side-content{
+    width:120px;
+    height:72px;
+    display:inline-block;
+    vertical-align: top;
+    background-color:rgb(100,100,200);    
+    font-size:18px;    
+}
+.caption{
+    color:rgb(230,230,230);
+    text-transform: uppercase;
+    margin:5px 0px 10px 5px;    
+    text-align: left;
+}
+.value{
+    color:rgb(230,230,230);
+    margin:12px 8px 8px 8px;    
+    text-align: right;
+}
