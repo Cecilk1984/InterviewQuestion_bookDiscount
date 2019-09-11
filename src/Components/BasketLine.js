@@ -2,7 +2,8 @@ import React from 'react';
 import './BasketLine.css';
 import { FaMinusSquare } from "react-icons/fa";
 import { FaPlusSquare } from "react-icons/fa";
-import {FaTrashAlt} from "react-icons/fa";
+// import {FaTrashAlt} from "react-icons/fa";
+import {FaTimes} from "react-icons/fa";
 class BasketLine extends React.Component {
     constructor(props) {
         super(props);
@@ -44,8 +45,8 @@ class BasketLine extends React.Component {
                     {this.props.item.price * this.props.item.count * 1.0}
                 </span>
                 <div className='basket-line-column basket-line-column-delete'>
-                    <FaTrashAlt className='basket-column-element'
-                    onClick={() => { this.handleDelete(); }}></FaTrashAlt>
+                    <FaTimes className='basket-column-element'
+                    onClick={() => { this.handleDelete(); }}></FaTimes>
                 </div>
             </div >
         );
